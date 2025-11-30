@@ -11,7 +11,14 @@
 
     <modules>
         <module>api</module>
-        <module>api</module>
+        <module>parser</module>
+        <module>compiler</module>
+<!--        <module>evaluator</module>-->
+<!--        <module>store</module>-->
+<!--        <module>actions</module>-->
+<!--        <module>examples</module>-->
+        <module>parser</module>
+        <module>compiler</module>
     </modules>
 
     <properties>
@@ -21,3 +28,12 @@
     </properties>
 
 </project>
+
+evaluator
+
+store
+
+actions
+
+examples
+
