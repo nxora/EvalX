@@ -16,4 +16,9 @@ public class ActionResult {
     public String getActionName() {
         return actionName;
     }
+
+    public static ActionResult error(String message) {
+        return new ActionResult("ERROR", message);
+    }
+
 }
